@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hand.demo.infra.mapper.BookMapper">
+
+    <resultMap id="BaseResultMap" type="com.hand.demo.domain.entity.Book">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="writer" property="writer"/>
+        <result column="introduction" property="introduction"/>
+    </resultMap>
+
+    <parameterMap id="Book" type="com.hand.demo.domain.entity.Book"/>
+
+    <sql id="Base_Column_List">
+        id, name, writer, introduction
+    </sql>
+
+    <select id="findAll" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from book
+    </select>
+
+    <select id="findById" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        select
+        <include refid="Base_Column_List"/>
+        from book
+        where id = #{id}
+    </select>
+
+    <insert id="save" parameterMap="Book" useGeneratedKeys="true" keyProperty="id">
+        insert into
+        book(id,name,writer,introduction)
+        values
+        (#{id},#{name},#{writer},#{introduction})
+    </insert>
+
+    <update id="update" parameterMap="Book">
+        update
+        book
+        set
+        <if test="name!=null">
+            name = #{name},
+        </if>
+        <if test="writer!=null">
+            writer = #{writer},
+        </if>
+        <if test="introduction!=null">
+            introduction = #{introduction}
+        </if>
+        where
+        id = #{id}
+    </update>
+
+    <delete id="delete" parameterType="java.lang.Long">
+        delete from
+        book
+        where
+        id = #{id}
+    </delete>
+
+</mapper>

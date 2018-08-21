@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <script type="text/javascript" th:src="@{https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js}"></script>
+    <link th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
+    <!--<link th:href="@{/css/default.css}" rel="stylesheet"/>-->
+    <link rel="icon" th:href="@{/images/favicon.ico}" type="image/x-icon"/>
+    <meta charset="UTF-8"/>
+    <title>用户登录</title>
+</head>
+<body>
+<div class="contentDiv">
+
+    <div th:if="${param.error}">
+        Invalid username and password.
+    </div>
+
+    <div th:if="${param.logout}">
+        You have been logged out.
+    </div>
+
+    <form th:action="@{/login}" method="post">
+        <div><label> User Name : <input type="text" name="username"/> </label></div>
+        <div><label> Password: <input type="password" name="password"/> </label></div>
+        <div>
+            <input type="submit" value="登录" style="background-color:#0077FF;color:#FFFFFF"/>
+            <a class="btn btn-primary" href="/home" role="button">主页</a>
+            <button type="button" style="background-color:lightcoral;color: #FFFFFF">退出</button>
+        </div>
+    </form>
+
+</div>
+</body>
+</html>
