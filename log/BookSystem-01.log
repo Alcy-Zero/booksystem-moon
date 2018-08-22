@@ -4892,3 +4892,189 @@ java.lang.IllegalArgumentException: Invalid character found in the request targe
 2018-08-22 12:27:14.679 DEBUG 37304 --- [http-nio-9090-exec-4] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
 2018-08-22 12:27:14.680 DEBUG 37304 --- [http-nio-9090-exec-4] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 5(Integer), 5(Integer)
 2018-08-22 12:27:14.680 DEBUG 37304 --- [http-nio-9090-exec-4] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 2
+2018-08-22 12:29:35.538 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:35.539 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:35.539 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:35.539 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:35.539 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 5(Integer), 5(Integer)
+2018-08-22 12:29:35.540 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 2
+2018-08-22 12:29:37.255 DEBUG 37304 --- [http-nio-9090-exec-1] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:37.256 DEBUG 37304 --- [http-nio-9090-exec-1] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:37.257 DEBUG 37304 --- [http-nio-9090-exec-1] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:37.257 DEBUG 37304 --- [http-nio-9090-exec-1] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:37.258 DEBUG 37304 --- [http-nio-9090-exec-1] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 5(Integer), 5(Integer)
+2018-08-22 12:29:37.259 DEBUG 37304 --- [http-nio-9090-exec-1] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 2
+2018-08-22 12:29:37.761 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:37.761 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:37.761 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:37.762 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:37.762 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 5(Integer), 5(Integer)
+2018-08-22 12:29:37.763 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 2
+2018-08-22 12:29:41.576 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:41.576 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:41.577 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:41.577 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:41.578 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 0(Integer), 5(Integer)
+2018-08-22 12:29:41.579 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 5
+2018-08-22 12:29:41.710 DEBUG 37304 --- [http-nio-9090-exec-5] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:41.711 DEBUG 37304 --- [http-nio-9090-exec-5] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:41.712 DEBUG 37304 --- [http-nio-9090-exec-5] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:41.713 DEBUG 37304 --- [http-nio-9090-exec-5] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:41.713 DEBUG 37304 --- [http-nio-9090-exec-5] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 0(Integer), 5(Integer)
+2018-08-22 12:29:41.714 DEBUG 37304 --- [http-nio-9090-exec-5] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 5
+2018-08-22 12:29:47.151 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:47.151 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:47.152 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:47.153 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:47.153 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 5(Integer), 5(Integer)
+2018-08-22 12:29:47.154 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 2
+2018-08-22 12:29:48.450 DEBUG 37304 --- [http-nio-9090-exec-10] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:48.451 DEBUG 37304 --- [http-nio-9090-exec-10] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:48.452 DEBUG 37304 --- [http-nio-9090-exec-10] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:48.452 DEBUG 37304 --- [http-nio-9090-exec-10] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:48.452 DEBUG 37304 --- [http-nio-9090-exec-10] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 0(Integer), 5(Integer)
+2018-08-22 12:29:48.453 DEBUG 37304 --- [http-nio-9090-exec-10] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 5
+2018-08-22 12:29:50.051 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:50.051 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:50.052 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:50.052 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:50.052 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 5(Integer), 5(Integer)
+2018-08-22 12:29:50.053 DEBUG 37304 --- [http-nio-9090-exec-2] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 2
+2018-08-22 12:29:50.965 DEBUG 37304 --- [http-nio-9090-exec-4] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:50.965 DEBUG 37304 --- [http-nio-9090-exec-4] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:50.965 DEBUG 37304 --- [http-nio-9090-exec-4] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:50.966 DEBUG 37304 --- [http-nio-9090-exec-4] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:50.966 DEBUG 37304 --- [http-nio-9090-exec-4] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 5(Integer), 5(Integer)
+2018-08-22 12:29:50.966 DEBUG 37304 --- [http-nio-9090-exec-4] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 2
+2018-08-22 12:29:51.863 DEBUG 37304 --- [http-nio-9090-exec-6] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:51.864 DEBUG 37304 --- [http-nio-9090-exec-6] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:51.865 DEBUG 37304 --- [http-nio-9090-exec-6] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:51.865 DEBUG 37304 --- [http-nio-9090-exec-6] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:51.865 DEBUG 37304 --- [http-nio-9090-exec-6] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 5(Integer), 5(Integer)
+2018-08-22 12:29:51.866 DEBUG 37304 --- [http-nio-9090-exec-6] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 2
+2018-08-22 12:29:52.249 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:52.250 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:52.253 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:52.253 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:52.254 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 0(Integer), 5(Integer)
+2018-08-22 12:29:52.254 DEBUG 37304 --- [http-nio-9090-exec-8] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 5
+2018-08-22 12:29:57.709 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:29:57.709 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:29:57.710 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:29:57.710 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:29:57.710 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 0(Integer), 5(Integer)
+2018-08-22 12:29:57.711 DEBUG 37304 --- [http-nio-9090-exec-3] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 5
+2018-08-22 12:30:25.581  INFO 33672 --- [restartedMain] com.hand.demo.WebApplication             : Starting WebApplication on Anifalak-002 with PID 33672 (D:\IdeaProjects\SB-BookSys-01\target\classes started by Ani in D:\IdeaProjects\SB-BookSys-01)
+2018-08-22 12:30:25.582 DEBUG 33672 --- [restartedMain] com.hand.demo.WebApplication             : Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-08-22 12:30:25.582  INFO 33672 --- [restartedMain] com.hand.demo.WebApplication             : No active profile set, falling back to default profiles: default
+2018-08-22 12:30:25.943  INFO 33672 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26b66775: startup date [Wed Aug 22 12:30:25 GMT+08:00 2018]; root of context hierarchy
+2018-08-22 12:30:27.349  INFO 33672 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-22 12:30:27.447  INFO 33672 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-22 12:30:27.496  INFO 33672 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d5b229e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-22 12:30:28.127  INFO 33672 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2018-08-22 12:30:28.146  INFO 33672 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-08-22 12:30:28.147  INFO 33672 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-08-22 12:30:28.290  INFO 33672 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-22 12:30:28.291  INFO 33672 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2352 ms
+2018-08-22 12:30:28.558  INFO 33672 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-22 12:30:28.558  INFO 33672 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-22 12:30:28.559  INFO 33672 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-22 12:30:28.559  INFO 33672 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-22 12:30:28.560  INFO 33672 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-08-22 12:30:28.560  INFO 33672 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-22 12:30:29.721  INFO 33672 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ae1d8b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e0c50b2, org.springframework.security.web.header.HeaderWriterFilter@5ebb6a26, org.springframework.security.web.csrf.CsrfFilter@63fa8b87, org.springframework.security.web.authentication.logout.LogoutFilter@17fcc98c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c4b3b21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6bc77d48, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e94b697, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@501be05d, org.springframework.security.web.session.SessionManagementFilter@7f5bd114, org.springframework.security.web.access.ExceptionTranslationFilter@66f63be5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5b9553e8]
+2018-08-22 12:30:29.808  INFO 33672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@26b66775: startup date [Wed Aug 22 12:30:25 GMT+08:00 2018]; root of context hierarchy
+2018-08-22 12:30:29.880  INFO 33672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/create],methods=[GET]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.createBookForm(org.springframework.ui.ModelMap)
+2018-08-22 12:30:29.881  INFO 33672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/list],methods=[GET]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.getBookList(org.springframework.ui.ModelMap,com.hand.demo.domain.xxx.Page)
+2018-08-22 12:30:29.884  INFO 33672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/delete/{id}],methods=[GET]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.deleteBook(java.lang.Long)
+2018-08-22 12:30:29.884  INFO 33672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/update],methods=[POST]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.putBook(com.hand.demo.domain.entity.Book)
+2018-08-22 12:30:29.885  INFO 33672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/update/{id}],methods=[GET]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.getForm(java.lang.Long,org.springframework.ui.ModelMap)
+2018-08-22 12:30:29.885  INFO 33672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/create],methods=[POST]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.postBook(com.hand.demo.domain.entity.Book)
+2018-08-22 12:30:29.889  INFO 33672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-22 12:30:29.889  INFO 33672 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-22 12:30:29.935  INFO 33672 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-08-22 12:30:29.935  INFO 33672 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-08-22 12:30:29.935  INFO 33672 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/hello] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-08-22 12:30:29.935  INFO 33672 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-08-22 12:30:29.953  INFO 33672 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-22 12:30:29.953  INFO 33672 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-22 12:30:30.033  INFO 33672 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-22 12:30:30.701  INFO 33672 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-08-22 12:30:30.742  INFO 33672 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-22 12:30:30.783  INFO 33672 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9090 (http)
+2018-08-22 12:30:30.788  INFO 33672 --- [restartedMain] com.hand.demo.WebApplication             : Started WebApplication in 5.614 seconds (JVM running for 6.941)
+2018-08-22 12:30:44.422  INFO 33672 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-22 12:30:44.422  INFO 33672 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-22 12:30:44.449  INFO 33672 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2018-08-22 12:30:46.338 DEBUG 33672 --- [http-nio-9090-exec-6] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:30:46.352 DEBUG 33672 --- [http-nio-9090-exec-6] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:30:46.361 DEBUG 33672 --- [http-nio-9090-exec-6] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:30:46.361 DEBUG 33672 --- [http-nio-9090-exec-6] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:30:46.362 DEBUG 33672 --- [http-nio-9090-exec-6] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 0(Integer), 5(Integer)
+2018-08-22 12:30:46.363 DEBUG 33672 --- [http-nio-9090-exec-6] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 5
+2018-08-22 12:31:37.455 DEBUG 33672 --- [http-nio-9090-exec-10] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:31:37.456 DEBUG 33672 --- [http-nio-9090-exec-10] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:31:37.457 DEBUG 33672 --- [http-nio-9090-exec-10] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:31:37.458 DEBUG 33672 --- [http-nio-9090-exec-10] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:31:37.458 DEBUG 33672 --- [http-nio-9090-exec-10] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 0(Integer), 5(Integer)
+2018-08-22 12:31:37.461 DEBUG 33672 --- [http-nio-9090-exec-10] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 5
+2018-08-22 12:31:38.848 DEBUG 33672 --- [http-nio-9090-exec-2] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:31:38.849 DEBUG 33672 --- [http-nio-9090-exec-2] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:31:38.849 DEBUG 33672 --- [http-nio-9090-exec-2] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:31:38.850 DEBUG 33672 --- [http-nio-9090-exec-2] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:31:38.850 DEBUG 33672 --- [http-nio-9090-exec-2] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 0(Integer), 5(Integer)
+2018-08-22 12:31:38.851 DEBUG 33672 --- [http-nio-9090-exec-2] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 5
+2018-08-22 12:31:39.874 DEBUG 33672 --- [http-nio-9090-exec-5] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:31:39.874 DEBUG 33672 --- [http-nio-9090-exec-5] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:31:39.875 DEBUG 33672 --- [http-nio-9090-exec-5] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:31:39.876 DEBUG 33672 --- [http-nio-9090-exec-5] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:31:39.877 DEBUG 33672 --- [http-nio-9090-exec-5] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 0(Integer), 5(Integer)
+2018-08-22 12:31:39.879 DEBUG 33672 --- [http-nio-9090-exec-5] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 5
+2018-08-22 12:31:50.662  INFO 29060 --- [restartedMain] com.hand.demo.WebApplication             : Starting WebApplication on Anifalak-002 with PID 29060 (D:\IdeaProjects\SB-BookSys-01\target\classes started by Ani in D:\IdeaProjects\SB-BookSys-01)
+2018-08-22 12:31:50.663 DEBUG 29060 --- [restartedMain] com.hand.demo.WebApplication             : Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-08-22 12:31:50.664  INFO 29060 --- [restartedMain] com.hand.demo.WebApplication             : No active profile set, falling back to default profiles: default
+2018-08-22 12:31:51.045  INFO 29060 --- [restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6199c6d4: startup date [Wed Aug 22 12:31:51 GMT+08:00 2018]; root of context hierarchy
+2018-08-22 12:31:52.531  INFO 29060 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration' of type [class org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-22 12:31:52.620  INFO 29060 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [class org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-22 12:31:52.662  INFO 29060 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9a2f8e60] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-08-22 12:31:53.270  INFO 29060 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9090 (http)
+2018-08-22 12:31:53.285  INFO 29060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-08-22 12:31:53.286  INFO 29060 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+2018-08-22 12:31:53.379  INFO 29060 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-08-22 12:31:53.379  INFO 29060 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2377 ms
+2018-08-22 12:31:53.653  INFO 29060 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-22 12:31:53.653  INFO 29060 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-22 12:31:53.654  INFO 29060 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-22 12:31:53.655  INFO 29060 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-22 12:31:53.656  INFO 29060 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-08-22 12:31:53.657  INFO 29060 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-22 12:31:55.078  INFO 29060 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51f982d8, org.springframework.security.web.context.SecurityContextPersistenceFilter@1f4bd838, org.springframework.security.web.header.HeaderWriterFilter@75d2940e, org.springframework.security.web.csrf.CsrfFilter@20262af7, org.springframework.security.web.authentication.logout.LogoutFilter@18b57d73, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6c0947d6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2729aadf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@130fec7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65ef3d92, org.springframework.security.web.session.SessionManagementFilter@37554301, org.springframework.security.web.access.ExceptionTranslationFilter@2d4f2cc0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2bcd0ef9]
+2018-08-22 12:31:55.224  INFO 29060 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6199c6d4: startup date [Wed Aug 22 12:31:51 GMT+08:00 2018]; root of context hierarchy
+2018-08-22 12:31:55.314  INFO 29060 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/create],methods=[POST]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.postBook(com.hand.demo.domain.entity.Book)
+2018-08-22 12:31:55.315  INFO 29060 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/update/{id}],methods=[GET]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.getForm(java.lang.Long,org.springframework.ui.ModelMap)
+2018-08-22 12:31:55.315  INFO 29060 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/delete/{id}],methods=[GET]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.deleteBook(java.lang.Long)
+2018-08-22 12:31:55.315  INFO 29060 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/create],methods=[GET]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.createBookForm(org.springframework.ui.ModelMap)
+2018-08-22 12:31:55.316  INFO 29060 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/update],methods=[POST]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.putBook(com.hand.demo.domain.entity.Book)
+2018-08-22 12:31:55.316  INFO 29060 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/v1/books/list],methods=[GET]}" onto public java.lang.String com.hand.demo.api.controller.v1.BookController.getBookList(org.springframework.ui.ModelMap,com.hand.demo.domain.xxx.Page)
+2018-08-22 12:31:55.322  INFO 29060 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-22 12:31:55.323  INFO 29060 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-22 12:31:55.354  INFO 29060 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-08-22 12:31:55.354  INFO 29060 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-08-22 12:31:55.354  INFO 29060 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/hello] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-08-22 12:31:55.354  INFO 29060 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/login] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2018-08-22 12:31:55.383  INFO 29060 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-22 12:31:55.383  INFO 29060 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-22 12:31:55.445  INFO 29060 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-22 12:31:56.401  INFO 29060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-08-22 12:31:56.482  INFO 29060 --- [restartedMain] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-08-22 12:31:56.566  INFO 29060 --- [restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 9090 (http)
+2018-08-22 12:31:56.578  INFO 29060 --- [restartedMain] com.hand.demo.WebApplication             : Started WebApplication in 6.311 seconds (JVM running for 7.65)
+2018-08-22 12:31:56.626  INFO 29060 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-08-22 12:31:56.627  INFO 29060 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-08-22 12:31:56.660  INFO 29060 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+2018-08-22 12:31:58.212 DEBUG 29060 --- [http-nio-9090-exec-3] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==>  Preparing: SELECT count(0) FROM book 
+2018-08-22 12:31:58.225 DEBUG 29060 --- [http-nio-9090-exec-3] c.h.d.i.mapper.BookMapper.findAll_COUNT  : ==> Parameters: 
+2018-08-22 12:31:58.232 DEBUG 29060 --- [http-nio-9090-exec-3] c.h.d.i.mapper.BookMapper.findAll_COUNT  : <==      Total: 1
+2018-08-22 12:31:58.233 DEBUG 29060 --- [http-nio-9090-exec-3] c.h.d.infra.mapper.BookMapper.findAll    : ==>  Preparing: select id, name, writer, introduction from book limit ?,? 
+2018-08-22 12:31:58.234 DEBUG 29060 --- [http-nio-9090-exec-3] c.h.d.infra.mapper.BookMapper.findAll    : ==> Parameters: 0(Integer), 5(Integer)
+2018-08-22 12:31:58.236 DEBUG 29060 --- [http-nio-9090-exec-3] c.h.d.infra.mapper.BookMapper.findAll    : <==      Total: 5

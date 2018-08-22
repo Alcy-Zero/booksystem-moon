@@ -25,6 +25,7 @@
 
         <div class="form-group">
             <label for="book_name" class="col-sm-2 control-label">书名:</label>
+            <br/>
             <div class="col-xs-4">
                 <input type="text" class="form-control" id="book_name" name="name" th:value="${book.name}"
                        th:field="*{book.name}"/>
@@ -33,6 +34,7 @@
 
         <div class="form-group">
             <label for="book_writer" class="col-sm-2 control-label">作者:</label>
+            <br/>
             <div class="col-xs-4">
                 <input type="text" class="form-control" id="book_writer" name="writer" th:value="${book.writer}"
                        th:field="*{book.writer}"/>
@@ -41,6 +43,7 @@
 
         <div class="form-group">
             <label for="book_introduction" class="col-sm-2 control-label">简介:</label>
+            <br/>
             <div class="col-xs-4">
                 <textarea class="form-control" id="book_introduction" rows="3" name="introduction"
                           th:value="${book.introduction}" th:field="*{book.introduction}"></textarea>
@@ -50,7 +53,7 @@
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
                 <input class="btn btn-primary" type="submit" value="提交"/>&nbsp;&nbsp;
-                <input class="btn" type="button" value="返回" onclick="history.back()"/>
+                <input class="btn btn-default" type="button" value="返回" onclick="history.back()"/>
             </div>
         </div>
 
