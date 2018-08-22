@@ -13,7 +13,10 @@
 
 <div class="contentDiv">
 
-    <h5>Spring Boot</h5>
+    <h4>Spring Boot</h4>
+    <form th:action="@{/logout}" method="post">
+        <button type="submit" class="btn btn-warning">注销</button>
+    </form>
     <br/>
     <table class="table table-hover table-condensed">
         <legend>
@@ -44,6 +47,8 @@
 
     <div>
         <a class="btn btn-primary" href="/v1/books/create" role="button">新增书籍</a>
+        <a class="btn btn-primary" th:href="@{/v1/books/list?pageNum=1}"
+           role="button">首页</a>
         <a class="btn btn-primary" th:href="@{/v1/books/list?(pageNum=${pageNum}+1)}"
            role="button">下一页</a>
         <a class="btn btn-primary" th:href="@{/v1/books/list?(pageNum=${pageNum}-1)}"

@@ -15,7 +15,7 @@
 <h3 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h3>
 
 <form th:action="@{/logout}" method="post">
-    <input type="submit" value="注销"/>
+    <button type="submit" class="btn btn-danger">注销</button>
 </form>
 
 </div>
