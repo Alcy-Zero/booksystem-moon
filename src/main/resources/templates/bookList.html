@@ -53,6 +53,8 @@
            role="button">下一页</a>
         <a class="btn btn-primary" th:href="@{/v1/books/list?(pageNum=${pageNum}-1)}"
            role="button">上一页</a>
+        <a class="btn btn-primary" th:href="@{/v1/books/list?(pageNum=${lastPage})}"
+           role="button">尾页</a>
     </div>
 
 </div>

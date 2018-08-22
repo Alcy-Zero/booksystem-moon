@@ -1,6 +1,7 @@
 package com.hand.demo.api.controller.v1;
 
 
+import com.github.pagehelper.PageInfo;
 import com.hand.demo.domain.entity.Book;
 import com.hand.demo.api.service.BookService;
 import com.hand.demo.domain.xxx.Page;
@@ -8,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @Controller
 @RequestMapping(value = "/v1/books")
@@ -22,8 +25,11 @@ public class BookController {
 
     @GetMapping("/list")
     public String getBookList(ModelMap map,Page page) {
-        map.addAttribute("bookList", bookService.findAll(page));
+        List<Book> bookList = bookService.findAll(page);
+        PageInfo pageInfo = new PageInfo(bookList);
+        map.addAttribute("bookList", bookList);
         map.addAttribute("pageNum",page.getPageNum());
+        map.addAttribute("lastPage",pageInfo.getLastPage());
         return BOOK_LIST;
     }
 
