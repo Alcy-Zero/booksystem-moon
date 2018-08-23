@@ -13,11 +13,10 @@
 
 <div class="contentDiv">
 
-    <h4>Spring Boot</h4>
-    <form th:action="@{/logout}" method="post">
-        <button type="submit" class="btn btn-warning">注销</button>
-    </form>
+    <h4>Book Manage System</h4>
     <br/>
+    <a class="btn btn-success" href="/home" role="button">首页</a>
+    <a class="btn btn-danger" href="/login?logout" role="button">注销</a>
     <table class="table table-hover table-condensed">
         <legend>
             <strong>书籍列表</strong>
@@ -46,7 +45,7 @@
     </table>
 
     <div>
-        <a class="btn btn-primary" href="/v1/books/create" role="button">新增书籍</a>
+        <a class="btn btn-warning" href="/v1/books/create" role="button">新增书籍</a>
         <a class="btn btn-primary" th:href="@{/v1/books/list?pageNum=1}"
            role="button">首页</a>
         <a class="btn btn-primary" th:href="@{/v1/books/list?(pageNum=${pageNum}+1)}"

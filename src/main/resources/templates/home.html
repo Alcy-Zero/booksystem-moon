@@ -12,11 +12,12 @@
 <body>
 
 <div class="contentDiv">
-
-<h3>Welcome!</h3>
-
-<p>Click <a th:href="@{/hello}">here</a> to see a greeting.</p>
-
+    <h3>Welcome!</h3>
+    <br/>
+    <br/>
+    <a class="btn btn-primary" href="/login" role="button">登录</a>
+    <a class="btn btn-success" href="/v1/books/list" role="button">图书管理</a>
+    <a class="btn btn-danger" href="/login?logout" role="button">注销</a>
 </div>
 </body>
 

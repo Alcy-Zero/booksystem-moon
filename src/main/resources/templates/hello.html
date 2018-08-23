@@ -12,11 +12,19 @@
 <body>
 <div class="contentDiv">
 
-<h3 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h3>
+    <h3 th:inline="text">Hello [[${#httpServletRequest.remoteUser}]]!</h3>
+    <form>
+        <a class="btn btn-default" href="/home" role="button">首页</a>
+    </form>
+    <br/>
+    <form th:action="@{/logout}" method="post">
+        <button type="submit" class="btn btn-danger">注销</button>
+    </form>
+    <br/>
+    <form th:action="@{/v1/books/list}" method="get">
+        <button type="submit" class="btn btn-success">图书管理</button>
+    </form>
 
-<form th:action="@{/logout}" method="post">
-    <button type="submit" class="btn btn-danger">注销</button>
-</form>
 
 </div>
 </body>
