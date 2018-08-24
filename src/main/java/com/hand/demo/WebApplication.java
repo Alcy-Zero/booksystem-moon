@@ -1,9 +1,12 @@
 package com.hand.demo;
 
 import org.mybatis.spring.annotation.MapperScan;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
+
 
 // Spring Boot 应用的标识
 @SpringBootApplication
@@ -13,9 +16,15 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 @ServletComponentScan
 public class WebApplication {
 
+    protected static final Logger logger = LoggerFactory.getLogger(WebApplication.class);
+
     public static void main(String[] args) {
 
+        logger.info("SpringBoot开始加载");
+
         SpringApplication.run(WebApplication.class, args);
+
+        logger.error("SpringBoot加载完毕");
 
     }
 }

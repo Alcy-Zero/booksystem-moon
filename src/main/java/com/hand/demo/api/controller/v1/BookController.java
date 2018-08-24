@@ -4,7 +4,7 @@ package com.hand.demo.api.controller.v1;
 import com.github.pagehelper.PageInfo;
 import com.hand.demo.domain.entity.Book;
 import com.hand.demo.api.service.BookService;
-import com.hand.demo.domain.xxx.Page;
+import com.hand.demo.domain.pojo.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

@@ -1,4 +1,4 @@
-package com.hand.demo.domain.xxx;
+package com.hand.demo.domain.pojo;
 
 public class Page {
 
