@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <script type="text/javascript" th:src="@{https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js}"></script>
+    <link th:href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
+    <link th:href="@{/css/default.css}" rel="stylesheet"/>
+    <link rel="icon" th:href="@{/images/favicon.ico}" type="image/x-icon"/>
+    <meta charset="UTF-8"/>
+    <title>用户注册</title>
+</head>
+
+<body>
+
+<div class="contentDiv">
+
+    <h5>Spring Boot</h5>
+    <br/>
+    <legend>
+        <strong>用户管理</strong>
+    </legend>
+
+    <form th:action="@{/v1/users/{action}(action=${action})}" method="post" class="form-horizontal">
+
+        <input type="hidden" name="id" th:value="${user.id}"/>
+
+        <div class="form-group">
+            <label for="user_name" class="col-sm-2 control-label">用户名:</label>
+            <br/>
+            <div class="col-xs-4">
+                <input type="text" class="form-control" id="user_name" name="name" th:value="${user.name}"
+                       th:field="*{user.name}"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="user_age" class="col-sm-2 control-label">年龄:</label>
+            <br/>
+            <div class="col-xs-4">
+                <input type="text" class="form-control" id="user_age" name="age" th:value="${user.age}"
+                       th:field="*{user.age}"/>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="user_password" class="col-sm-2 control-label">密码:</label>
+            <br/>
+            <div class="col-xs-4">
+                <textarea class="form-control" id="user_password" rows="1" name="passowrd"
+                          th:value="${user.password}" th:field="*{user.password}"></textarea>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <input class="btn btn-primary" type="submit" value="提交"/>&nbsp;&nbsp;
+                <input class="btn btn-default" type="button" value="返回" onclick="history.back()"/>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>

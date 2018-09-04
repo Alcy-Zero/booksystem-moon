@@ -23,7 +23,8 @@ Use:
 
 Function：
 
-- 预设用户登陆
+- 预设用户 登陆
+- User 登陆、注册
 - Book CRUD
 - Books 分页
 
