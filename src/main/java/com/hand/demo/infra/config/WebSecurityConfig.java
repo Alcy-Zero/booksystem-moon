@@ -18,26 +18,27 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-            .authorizeRequests()
+                .authorizeRequests()
                 .antMatchers("/", "/home").permitAll()
                 .anyRequest().authenticated()
                 .and()
-            .formLogin()
+                .formLogin()
                 .loginPage("/login")
                 .permitAll()
                 .and()
-            .logout()
+                .logout()
                 .permitAll();
     }
 
     @Autowired
     private UserFinder userFinder;
+
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
 
         //读取数据库中用户名、密码
         List<User> users = userFinder.getUserList();
-        for(User user:users){
+        for (User user : users) {
             auth
                     .inMemoryAuthentication()
                     .withUser(user.getName()).password(user.getPassword()).roles("USER");
@@ -45,7 +46,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
         //设置固定存在的用户名、密码、权限
         auth
-             .inMemoryAuthentication()
+                .inMemoryAuthentication()
                 .withUser("user").password("password").roles("USER")
                 .and()
                 .withUser("lv").password("123456").roles("USER");
