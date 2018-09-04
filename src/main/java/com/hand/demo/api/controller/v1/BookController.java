@@ -20,6 +20,9 @@ public class BookController {
     private static final String BOOK_LIST = "bookList";
     private static final String REDIRECT_BOOK = "redirect:/v1/books/list";
 
+    private static final String FUNCTION_LIST = "xxxList";
+
+
     @Autowired
     BookService bookService;
 
@@ -77,6 +80,14 @@ public class BookController {
     public String deleteBook(@PathVariable Long id) {
         bookService.delete(id);
         return REDIRECT_BOOK;
+    }
+
+    /**
+     * 跳转到其他功能页面，返回functionList界面
+     */
+    @GetMapping("/functions")
+    public String getFunctionList() {
+        return FUNCTION_LIST;
     }
 
 }
