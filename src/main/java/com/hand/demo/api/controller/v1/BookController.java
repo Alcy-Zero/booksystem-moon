@@ -90,4 +90,9 @@ public class BookController {
         return FUNCTION_LIST;
     }
 
+    @GetMapping("/testtest")
+    @ResponseBody
+    public String getString() {
+        return "hahaha";
+    }
 }

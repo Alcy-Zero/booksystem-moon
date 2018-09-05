@@ -9,13 +9,15 @@ spring:
     encoding: UTF-8
   #数据源配置
   datasource:
-    username: root
-    password: password
-#   password: 123456
+#    username: root
+    username: chenbindb%chenbin
+#    password: password
+#    password: 123456
+    password: wsxdr2345!
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/springbootdb?useUnicode=true&characterEncoding=utf8
-#   url: jdbc:mysql://192.168.99.100:3306/sakila?useUnicode=true&characterEncoding=utf8
-
+#    url: jdbc:mysql://localhost:3306/springbootdb?useUnicode=true&characterEncoding=utf8
+#    url: jdbc:mysql://192.168.99.100:3306/sakila?useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://chenbindb.mysqldb.chinacloudapi.cn:3306/springbootdb?useUnicode=true&characterEncoding=utf8
 server:
   port: 9090
 
