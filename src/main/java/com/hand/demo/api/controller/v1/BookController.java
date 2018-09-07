@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -25,6 +26,8 @@ public class BookController {
 
     @Autowired
     BookService bookService;
+
+
 
     @GetMapping("/list")
     public String getBookList(ModelMap map,Page page) {
@@ -93,6 +96,8 @@ public class BookController {
     @GetMapping("/testtest")
     @ResponseBody
     public String getString() {
+        RestTemplate restTemplate = new RestTemplate();
+//        restTemplate.delete(url);
         return "hahaha";
     }
 }
