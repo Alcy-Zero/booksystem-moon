@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
+import java.util.Random;
 
 @Controller
 @RequestMapping(value = "/v1/books")
@@ -93,6 +94,9 @@ public class BookController {
         return FUNCTION_LIST;
     }
 
+    /**
+     * 测试
+     */
     @GetMapping(value = "/testtest", produces = "application/json;charset=UTF-8")
     @ResponseBody
     public Book getBook(@RequestParam Long id) {
@@ -102,4 +106,21 @@ public class BookController {
         book.setId(id);
         return book;
     }
+
+    /**
+     * 过5秒，向客户端推送
+     */
+    @RequestMapping(value = "/push", produces = "text/event-stream")
+    @ResponseBody
+    public String push(){
+        Random r = new Random();
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return r.nextInt()+"\n";
+    }
+
+
 }
