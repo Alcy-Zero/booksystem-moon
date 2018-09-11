@@ -93,11 +93,13 @@ public class BookController {
         return FUNCTION_LIST;
     }
 
-    @GetMapping("/testtest")
+    @GetMapping(value = "/testtest", produces = "application/json;charset=UTF-8")
     @ResponseBody
-    public String getString() {
+    public Book getBook(@RequestParam Long id) {
         RestTemplate restTemplate = new RestTemplate();
 //        restTemplate.delete(url);
-        return "hahaha";
+        Book book = new Book();
+        book.setId(id);
+        return book;
     }
 }

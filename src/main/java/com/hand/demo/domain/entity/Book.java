@@ -2,10 +2,22 @@ package com.hand.demo.domain.entity;
 
 public class Book{
 
-    private Long id;
-    private String name;
-    private String writer;
-    private String introduction;
+    private Long id = 100L;
+    private String name = "asd";
+    private String writer = "asd";
+    private String introduction = "asd";
+
+    public Book() {
+        super();
+    }
+
+    public Book(Long id, String name, String writer, String introduction) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.writer = writer;
+        this.introduction = introduction;
+    }
 
     public Long getId() {
         return id;
