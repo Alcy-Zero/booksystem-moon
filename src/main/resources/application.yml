@@ -38,4 +38,4 @@ logging:
         web: info
 
 ## 查看自动配置清单
-debug: true
+#debug: true
