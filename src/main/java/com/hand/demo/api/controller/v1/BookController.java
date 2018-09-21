@@ -24,10 +24,8 @@ public class BookController {
 
     private static final String FUNCTION_LIST = "xxxList";
 
-
     @Autowired
     BookService bookService;
-
 
 
     @GetMapping("/list")

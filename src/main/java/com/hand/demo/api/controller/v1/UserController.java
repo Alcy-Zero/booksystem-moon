@@ -37,4 +37,5 @@ public class UserController {
         userService.insertByUser(user);
         return REDIRECT_USER;
     }
+
 }
