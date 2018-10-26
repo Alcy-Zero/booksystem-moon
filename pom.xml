@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hand</groupId>
-    <artifactId>booksystem_moon</artifactId>
+    <artifactId>booksystem-moon</artifactId>
     <version>0.1.0</version>
     <packaging>jar</packaging>
 
-    <name>booksystem_moon</name>
+    <name>booksystem-moon</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
