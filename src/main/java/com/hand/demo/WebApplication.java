@@ -18,15 +18,9 @@ import java.util.Date;
 @ServletComponentScan
 public class WebApplication {
 
-    protected static final Logger logger = LoggerFactory.getLogger(WebApplication.class);
-
     public static void main(String[] args) {
 
-        logger.info("SpringBoot开始加载");
-
         SpringApplication.run(WebApplication.class, args);
-
-        logger.error("SpringBoot加载完毕");
 
     }
 }

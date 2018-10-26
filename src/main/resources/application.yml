@@ -10,7 +10,7 @@ spring:
   #数据源配置
   datasource:
     username: root
-    password: 123456
+    password: password
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/springbootdb?useUnicode=true&characterEncoding=utf8
 server:
@@ -34,3 +34,8 @@ logging:
 
 ## 查看自动配置清单
 #debug: true
+
+## 开启全部监控端点权限
+endpoints:
+  sensitive: false
+
