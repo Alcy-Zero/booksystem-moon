@@ -23,7 +23,7 @@ mybatis:
 
 ## 配置日志
 logging:
-  file: log/BookSystem-01.log
+  file: log/booksystem_moon.log
   level:
     com:
       hand:
